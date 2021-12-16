@@ -6,6 +6,9 @@ export default function TableMovies() {
         <React.Fragment>
             <div>
                 <div className="card shadow mb-4">
+                    <div className="card-header py-3 ml-4">
+                        <h5 className="m-0 font-weight-bold text-gray-800">All the movies in the Data Base</h5>
+                    </div>
                     <div className="card-body">
                         <div className="table-responsive">
                             <table className="table table-bordered" id="dataTable" width="100%" cellspacing="0">
