@@ -2,7 +2,7 @@ import React from 'react';
 
 import TopBar from './TopBar';
 import ContentRowTop from './ContentRowTop';
-/* import Table from './Table'; */
+import TableMovies from './TableMovies';
 import Footer from './Footer';
 
 export default function ContentWrapper() {
@@ -14,7 +14,7 @@ export default function ContentWrapper() {
                 <div id="content">
                     <TopBar />
                     <ContentRowTop />
-                    {/* <Table /> */}
+                    <TableMovies />
                     <Footer />
                 </div>
             </div>    
